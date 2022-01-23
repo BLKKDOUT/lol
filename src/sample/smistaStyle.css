@@ -1,0 +1,22 @@
+.textArea{
+    -fx-text-fill: #ffa400;
+}
+
+.textArea .content{
+    -fx-background-color: rgb(77, 46, 0);
+}
+
+.btn{
+    -fx-background-color: #323232;
+    -fx-text-fill: #ffa400;
+    -fx-effect: dropshadow(three-pass-box, #00000088, 0, 0, 0, 3);
+}
+
+.btn:pressed{
+    -fx-effect: dropshadow(three-pass-box, #00000000, 0, 0, 0, 3);
+    -fx-translate-y: 0px;
+}
+
+.gridpane, .anchorpane{
+    -fx-background-color: #212121;
+}

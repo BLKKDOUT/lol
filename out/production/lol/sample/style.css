@@ -1,0 +1,33 @@
+.textArea{
+    -fx-text-fill: white;
+}
+
+.textArea .content{
+    -fx-background-color: rgb(0,43,77);
+}
+
+.btn{
+    -fx-font-family: "Consolas";
+    -fx-text-fill: white;
+    /*-fx-background-color: #335671;*/
+    -fx-effect: dropshadow(three-pass-box, #00000088, 0, 0, 0, 3);
+    -fx-border-radius: 0px;
+    -fx-translate-y: -3px;
+}
+
+.btn:pressed{
+    -fx-effect: dropshadow(three-pass-box, #00000000, 0, 0, 0, 3);
+    -fx-translate-y: 0px;
+}
+
+.volumeSlider .track{
+    -fx-background-color: #335671;
+}
+
+.volumeSlider .thumb{
+    -fx-background-color: #03305d;
+}
+
+.gridpane, .anchorpane{
+    -fx-background-color: #19415f;
+}
